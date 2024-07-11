@@ -1,12 +1,8 @@
 from flask import Flask
-from pymongo import MongoClient
-import json
 
-
-app = Flask(__name__)
-mongo_client = MongoClient("mongodb://localhost:27017")
+app = Flask(__name__, static_url_path="/", static_folder="./static")
 
 
 @app.route("/")
 def home():
-    return json.dumps(mongo_client.server_info())
+    return app.send_static_file("index.html")
