@@ -1,0 +1,9 @@
+include:
+  - Database/mongo.yaml
+  - WebServer/server.yaml
+services:
+  ui:
+    build: .
+    depends-on:
+      - Database/mongo.yaml
+      - WebServer/server.yaml
