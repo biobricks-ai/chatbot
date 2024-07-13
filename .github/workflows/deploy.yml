@@ -1,0 +1,43 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+
+    - name: Create app directory on EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          mkdir -p ~/app/chat-ui
+        EOF
+
+    - name: Copy files to EC2
+      run: |
+        scp -o StrictHostKeyChecking=no -r $GITHUB_WORKSPACE/* ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:~/app
+
+    - name: Create .env file on EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          printf '%s\n' "${{ secrets.ENV }}" > ~/app/.env
+        EOF
+
+    - name: Deploy on EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          cd ~/app
+          docker compose down
+          docker compose up -d --build
+        EOF
