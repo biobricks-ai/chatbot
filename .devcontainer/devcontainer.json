@@ -1,0 +1,31 @@
+{
+  "name": "Chatbot Development Environment",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/workspaces/chatbot",
+  "runArgs": [
+    "--privileged",
+    "--user", "root"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  // "postCreateCommand": "npm install && npm run dev",
+  "remoteUser": "vscode",
+  "forwardPorts": [
+    3000,
+    27017
+  ]
+}
