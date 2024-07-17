@@ -1,20 +1,16 @@
 from flask import Flask, request, jsonify, render_template_string
 from openai import OpenAI
+import os
 
 client = OpenAI(
-    api_key="sk-chat-biobricks-ai-2xEjn7XcNWmaQu7WBAjDT3BlbkFJI6L4ykSo86WIOnJxDeSk"
+    api_key=os.environ.get["OPENAI_API_KEY"]
 )
 import requests
 from bs4 import BeautifulSoup
-import os
 import re
 
 app = Flask(__name__)
 
-# Set your OpenAI API key
-# openai.api_key = os.environ.get('OPENAI_API_KEY')
-
-# HTML template with a form
 html_template = """
 <!doctype html>
 <html lang="en">
