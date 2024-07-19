@@ -13,7 +13,7 @@ import type { EndpointMessage } from "../endpoints";
 import { readFileSync } from "fs";
 import { resolve } from "path";
 
-const htmlData = readFileSync(resolve("static/index.html"), {"encoding": "utf-8"});
+const htmlData = readFileSync(resolve("static/huggingchat/niceatm.html"), {"encoding": "utf-8"});
 
 export const endpointOAIParametersSchema = z.object({
 	weight: z.number().int().positive().default(1),
