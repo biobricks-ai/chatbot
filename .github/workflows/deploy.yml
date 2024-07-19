@@ -20,9 +20,7 @@ jobs:
 
     - name: Create app directory on EC2
       run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
-          mkdir -p ~/app/chat-ui
-        EOF
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} mkdir -p ~/app/chat-ui
 
     - name: Copy files to EC2
       run: |
@@ -30,9 +28,7 @@ jobs:
 
     - name: Create .env file on EC2
       run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
-          printf '%s\n' "${{ secrets.ENV }}" > ~/app/.env
-        EOF
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} printf '%s\n' "${{ secrets.ENV }}" > ~/app/.env
 
     - name: Deploy on EC2
       run: |
