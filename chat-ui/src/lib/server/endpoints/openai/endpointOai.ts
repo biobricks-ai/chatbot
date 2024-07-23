@@ -10,10 +10,7 @@ import type OpenAI from "openai";
 import { createImageProcessorOptionsValidator, makeImageProcessor } from "../images";
 import type { MessageFile } from "$lib/types/Message";
 import type { EndpointMessage } from "../endpoints";
-import { readFileSync } from "fs";
-import { resolve } from "path";
-
-const htmlData = readFileSync(resolve("static/huggingchat/niceatm.html"), {"encoding": "utf-8"});
+import niceatm from '$lib/assets/niceatm.txt?raw';
 
 export const endpointOAIParametersSchema = z.object({
 	weight: z.number().int().positive().default(1),
@@ -123,7 +120,7 @@ export async function endpointOai(
 			if (messagesOpenAI?.[0]) {
 				messagesOpenAI[0].content =
 					preprompt ??
-					`Use the table found in ${htmlData}. Extract the links found in the Method column and describe their contents, briefly. Use a bulleted list to format the output. Don't load the pages.`;
+					`Use the table found in ${niceatm}. Extract the links found in the Method column and describe their contents, briefly. Use a bulleted list to format the output. Don't load the pages.`;
 			}
 			console.log("running chat completion");
 			const parameters = { ...model.parameters, ...generateSettings };

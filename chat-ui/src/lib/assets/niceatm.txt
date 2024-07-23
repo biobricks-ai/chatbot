@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <!-- Begin No Index -->
+      <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"be99a44193",applicationID:"467377691"};;/*! For license information please see nr-loader-rum-1.262.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={2983:(e,t,r)=>{"use strict";r.d(t,{D0:()=>m,gD:()=>y,Vp:()=>s,fr:()=>S,jD:()=>j,hR:()=>x,xN:()=>b,x1:()=>c,aN:()=>R,V:()=>I});var n=r(384),i=r(7864);const o={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.a)(t,o);const r=(0,n.nY)(e);r&&(r.info=a[e])}var u=r(993);const l=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(2614),f=r(944);const g="[data-nr-mask]",p=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},feature_flags:[],harvest:{tooManyRequestsDelay:60},jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},logging:{enabled:!0,harvestTimeSeconds:10,autoStart:!0,level:u.p_.INFO},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){l(t)?e.mask_selector="".concat(t,",").concat(g):""===t||null===t?e.mask_selector=g:(0,f.R)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){l(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},ssl:void 0}},h={},v="All configuration objects require an agent identifier!";function m(e){if(!e)throw new Error(v);if(!h[e])throw new Error("Configuration for ".concat(e," was never set"));return h[e]}function b(e,t){if(!e)throw new Error(v);h[e]=(0,i.a)(t,p());const r=(0,n.nY)(e);r&&(r.init=h[e])}function y(e,t){if(!e)throw new Error(v);var r=m(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const w={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function R(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.a)(t,w);const r=(0,n.nY)(e);r&&(r.loader_config=A[e])}const x=(0,n.dV)().o;var _=r(6154),E=r(9324);const N={buildEnv:E.F3,distMethod:E.Xs,version:E.xv,originTime:_.WN},T={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,origin:""+_.gm.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,harvestCount:0,timeKeeper:void 0},k={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!k[e])throw new Error("Runtime for ".concat(e," was never set"));return k[e]}function I(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");k[e]={...(0,i.a)(t,T),...N};const r=(0,n.nY)(e);r&&(r.runtime=k[e])}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},7864:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.R)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.R)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.R)("An error occured while setting a Configurable",e)}}},9324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>o,xv:()=>n});const n="1.262.0",i="PROD",o="CDN"},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,Vr:()=>d,WN:()=>f,bv:()=>o,gm:()=>a,lT:()=>l,mw:()=>s,sb:()=>u});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,o="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===a?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,l=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(i&&window.document.documentMode)),d=!!a.navigator?.sendBeacon,f=Date.now()-(0,n.t)()},4777:(e,t,r)=>{"use strict";r.d(t,{J:()=>o});var n=r(944);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.R)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.R)("An error occurred while setting SharedContext",e)}}}},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>c,Ze:()=>d,x3:()=>u});var n=r(7836),i=r(1478),o=r(3606),a=r(860);const s={};function c(e,t){const r={staged:!1,priority:a.P[t]||0};l(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){e&&s[e]&&(s[e].get(t)&&s[e].delete(t),g(e,t,!1),s[e].size&&f(e))}function l(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(l(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];const a=e?n.ee.get(e):n.ee,s=o.i.handlers;if(a.backlog&&s){if(r){const e=a.backlog[t],r=s[t];if(r){for(let t=0;e&&t<e.length;++t)p(e[t],r);(0,i.$)(r,(function(e,t){(0,i.$)(t,(function(t,r){r[0].on(e,r[1])}))}))}}a.isolatedBacklog||delete s[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.$)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>c,ee:()=>u});var n=r(384),i=r(8990),o=r(2983),a=r(2646),s=r(5607);const c="nr@context:".concat(s.W),u=function e(t,r){var n={},s={},l={},d=!1;try{d=16===r.length&&(0,o.fr)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),l=c.length,d=0;d<l;d++)c[d].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:d?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:d};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,c,(()=>new a.y(c))):new a.y(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return l[t]=l[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),l=(0,n.Zm)();l.ee||(l.ee=u)},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>o});var n=r(9908);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.d,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.d);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3878:(e,t,r)=>{"use strict";r.d(t,{DD:()=>c,jT:()=>a,sp:()=>s});var n=r(6154);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n.gm.addEventListener("test",null,e),n.gm.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>a,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>o});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{R:()=>n})},5284:(e,t,r)=>{"use strict";r.d(t,{t:()=>c,B:()=>s});var n=r(7836),i=r(6154);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i.gm.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{J:()=>i,s:()=>n})},1478:(e,t,r)=>{"use strict";r.d(t,{$:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},3304:(e,t,r)=>{"use strict";r.d(t,{A:()=>o});var n=r(7836);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,sB:()=>a});var n=r(3878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.sp)("load",e,t)}function a(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>l,Zm:()=>a,bQ:()=>c,dV:()=>s,nY:()=>u,pV:()=>d});var n=r(6154),i=r(1863);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function s(){let e=a();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function l(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},2843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(3878);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3434:(e,t,r)=>{"use strict";r.d(t,{YM:()=>c});var n=r(7836),i=r(5607);const o="nr@original:".concat(i.W);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];l(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return l(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,l,d;try{a=this,o=[...arguments],l="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],l],e)}i(r+"start",[o,a,s],l,c);try{return d=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],l,c),e}finally{i(r+"end",[o,a,d],l,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function l(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}},993:(e,t,r)=>{"use strict";r.d(t,{ET:()=>o,bu:()=>a,p_:()=>i});var n=r(860);const i={ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"},o="log",a=(n.K.logging,"failed to wrap logger: ")},3969:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,XG:()=>s,rs:()=>i,xV:()=>a,z_:()=>o});const n=r(860).K.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K.pageViewTiming},6344:(e,t,r)=>{"use strict";r.d(t,{G4:()=>i});var n=r(2614);r(860).K.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.g.ERROR,n.g.FULL,n.g.OFF},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(7836);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2266:(e,t,r)=>{"use strict";r.d(t,{j:()=>k});var n=r(860),i=r(2983),o=r(9908),a=r(7836),s=r(1687),c=r(5289),u=r(6154),l=r(944),d=r(3969),f=r(384),g=r(6344);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start",g.G4.RECORD,g.G4.PAUSE,"log","wrapLogger"],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(1863),m=r(2614),b=r(993);var y=r(2646),w=r(3434);function A(e,t,r,n){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,l.R)(b.bu+"invalid argument(s)");const i=function(e){return(e||a.ee).get("logger")}(e),o=(0,w.YM)(i),s=new y.y(a.P);return s.level=n.level,s.customAttributes=n.customAttributes,o.inPlace(t,[r],"wrap-logger-",s),i}function R(){const e=(0,f.pV)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e&&e.api?e.exposed&&e.api[t]&&o.push(e.api[t](...n)):(0,l.R)("Call to api '".concat(t,"' made before agent fully initialized."))})),o.length>1?o:o[0]}(t,...n)}}))}const x={};function _(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.Ak)(e,"api");const p={};var y=a.ee.get(e),w=y.get("tracer");x[e]=m.g.OFF,y.on(g.G4.REPLAY_RUNNING,(t=>{x[e]=t}));var R="api-",_=R+"ixn-";function E(t,r,n,o){const a=(0,i.Vp)(e);return null===r?delete a.jsAttributes[t]:(0,i.x1)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),k(R,n,!0,o||null===r?"session":void 0)(t,r)}function N(){}p.log=function(e){let{customAttributes:t={},level:r=b.p_.INFO}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};!function(e,t){let r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:b.p_.INFO;(0,o.p)(d.xV,["API/logging/".concat(i.toLowerCase(),"/called")],void 0,n.K.metrics,e),(0,o.p)(b.ET,[(0,v.t)(),t,r,i],void 0,n.K.logging,e)}(y,e,t,r)},p.wrapLogger=function(e,t){let{customAttributes:r={},level:n=b.p_.INFO}=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};A(y,e,t,{customAttributes:r,level:n})},h.forEach((e=>{p[e]=k(R,e,!0,"api")})),p.addPageAction=k(R,"addPageAction",!0,n.K.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.fr)(e).customTransaction=(r||"http://custom.transaction")+t,k(R,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return E(e,t,"setCustomAttribute",r);(0,l.R)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.R)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return E("enduser.id",e,"setUserId",!0);(0,l.R)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return E("application.version",e,"setApplicationVersion",!1);(0,l.R)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=()=>{try{(0,o.p)(d.xV,["API/start/called"],void 0,n.K.metrics,y),y.emit("manual-start-all")}catch(e){(0,l.R)("An unexpected issue occurred",e)}},p[g.G4.RECORD]=function(){(0,o.p)(d.xV,["API/recordReplay/called"],void 0,n.K.metrics,y),(0,o.p)(g.G4.RECORD,[],void 0,n.K.sessionReplay,y)},p[g.G4.PAUSE]=function(){(0,o.p)(d.xV,["API/pauseReplay/called"],void 0,n.K.metrics,y),(0,o.p)(g.G4.PAUSE,[],void 0,n.K.sessionReplay,y)},p.interaction=function(e){return(new N).get("object"==typeof e?e:{})};const T=N.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(d.xV,["API/createTracer/called"],void 0,n.K.metrics,y),f||(0,o.p)(_+"tracer",[(0,v.t)(),e,r],i,n.K.spa,y),function(){if(w.emit((a?"":"no-")+"fn-start",[(0,v.t)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw w.emit("fn-err",[arguments,this,t],r),t}finally{w.emit("fn-end",[(0,v.t)()],r)}}}};function k(e,t,r,i){return function(){return(0,o.p)(d.xV,["API/"+t+"/called"],void 0,n.K.metrics,y),i&&(0,o.p)(e+t,[(0,v.t)(),...arguments],r?null:this,i,y),r?void 0:this}}function S(){r.e(296).then(r.bind(r,8778)).then((t=>{let{setAPI:r}=t;r(e),(0,s.Ze)(e,"api")})).catch((e=>{(0,l.R)("Downloading runtime APIs failed...",e),y.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{T[e]=k(_,e,void 0,f?n.K.softNav:n.K.spa)})),p.setCurrentRouteName=f?k(_,"routeName",void 0,n.K.softNav):k(R,"routeName",!0,n.K.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(d.xV,["API/noticeError/called"],void 0,n.K.metrics,y),(0,o.p)("err",[t,(0,v.t)(),!1,r,!!x[e]],void 0,n.K.jserrors,y)},u.RI?(0,c.GG)((()=>S()),!0):S(),p}var E=r(5284);const N=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let T=!1;function k(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},r=arguments.length>2?arguments[2]:void 0,n=arguments.length>3?arguments[3]:void 0,{init:o,info:a,loader_config:s,runtime:c={loaderType:r},exposed:l=!0}=t;const d=(0,f.pV)();a||(o=d.init,a=d.info,s=d.loader_config),(0,i.xN)(e.agentIdentifier,o||{}),(0,i.aN)(e.agentIdentifier,s||{}),a.jsAttributes??={},u.bv&&(a.jsAttributes.isWorker=!0),(0,i.x1)(e.agentIdentifier,a);const g=(0,i.D0)(e.agentIdentifier),p=[a.beacon,a.errorBeacon];T||(g.proxy.assets&&(N(g.proxy.assets),p.push(g.proxy.assets)),g.proxy.beacon&&p.push(g.proxy.beacon),R(),(0,f.US)("activatedFeatures",E.B),e.runSoftNavOverSpa&&=!0===g.soft_navigations.enabled&&g.feature_flags.includes("soft_nav")),c.denyList=[...g.ajax.deny_list||[],...g.ajax.block_internal?p:[]],c.ptid=e.agentIdentifier,(0,i.V)(e.agentIdentifier,c),void 0===e.api&&(e.api=_(e.agentIdentifier,n,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=l),T=!0}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{K:()=>n,P:()=>i});const n={ajax:"ajax",jserrors:"jserrors",logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.spa]:5,[n.ajax]:6,[n.sessionTrace]:7,[n.pageAction]:8,[n.softNav]:9,[n.sessionReplay]:10,[n.logging]:11}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.262.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.262.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),l=0;l<u.length;l++){var d=u[l];if(d.getAttribute("src")==r||d.getAttribute("data-webpack")==t+o){s=d;break}}if(!s){c=!0;var f={296:"sha512-RNqn6sbYWyasLonp9lfe1xvzHNr7lYPbX/O/Yoz+qy0WGpAiV8044reBD60xxSHypyXfx3L5qD1h6EdGCceVQw=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={840:0,374:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.262.0.PROD"]=self["webpackChunk:NRBA-1.262.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(944),t=i(6344),r=i(9566),n=i(7836);class o{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.LA)(16);this.agentIdentifier=e,this.ee=n.ee.get(e)}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.R)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.G4.RECORD)}pauseReplay(){return this.#e(t.G4.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}log(e,t){return this.#e("logInfo",e,t)}wrapLogger(e,t,r){return this.#e("wrapLogger",e,t,r)}}var a=i(860),s=i(2983);const c=Object.values(a.K);function u(e){const t={};return c.forEach((r=>{t[r]=function(e,t){return!0===(0,s.gD)(t,"".concat(e,".enabled"))}(r,e)})),t}var l=i(2266);var d=i(1687),f=i(4234),g=i(5289),p=i(6154);const h=e=>p.RI&&!0===(0,s.gD)(e,"privacy.cookies_enabled");function v(e){return!!s.hR.MO&&h(e)&&!0===(0,s.gD)(e,"session_trace.enabled")}var m=i(6389);class b extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,s.gD)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,d.Ak)(e,r):this.ee.on("manual-start-all",(0,m.J)((()=>{(0,d.Ak)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(h(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(296).then(i.bind(i,2987));n=e(this.agentIdentifier)}}catch(t){(0,e.R)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.ee.emit("internal-error",[t]),this.featureName===a.K.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.Ze)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(296).then(i.bind(i,6103)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.R)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.Ze)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};p.RI?(0,g.GG)((()=>n()),!0):n()}#t(e,t){switch(e){case a.K.sessionReplay:return v(this.agentIdentifier)&&!!t;case a.K.sessionTrace:return!!t;default:return!0}}}var y=i(6630);class w extends b{static featureName=y.T;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,y.T,r),this.importAggregator()}}var A=i(4777),R=i(1478);class x extends A.J{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,R.$)(e,(function(e,r){t[e]=_(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,R.$)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=_(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=E(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=_(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function _(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=E(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function E(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var N=i(384),T=i(3304);var k=i(9908),S=i(2843),I=i(3878),j=i(782),O=i(1863);class P extends b{static featureName=j.T;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,j.T,r),p.RI&&((0,S.u)((()=>(0,k.p)("docHidden",[(0,O.t)()],void 0,j.T,this.ee)),!0),(0,I.sp)("pagehide",(()=>(0,k.p)("winPagehide",[(0,O.t)()],void 0,j.T,this.ee))),this.importAggregator())}}var D=i(3969);class C extends b{static featureName=D.TZ;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,D.TZ,r),this.importAggregator()}}new class extends o{constructor(t,r){super(r),p.gm?(this.sharedAggregator=new x({agentIdentifier:this.agentIdentifier}),this.features={},(0,N.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(w),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===a.K.softNav)),(0,l.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.R)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=u(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>a.P[e.featureName]-a.P[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==a.K.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===a.K.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===a.K.softNav)return;const n=function(e){switch(e){case a.K.ajax:return[a.K.jserrors];case a.K.sessionTrace:return[a.K.ajax,a.K.pageViewEvent];case a.K.sessionReplay:return[a.K.sessionTrace];case a.K.pageViewTiming:return[a.K.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.R)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,T.A)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.R)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,N.Zm)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[w,P,C],loaderType:"lite"})})()})();</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126482947-14 "></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-126482947-14 ", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path"});gtag("config", "UA-20246154-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path"});</script>
+<meta name="description" content="This page lists alternative safety testing methods that are accepted by U.S. and international regulatory authorities, organized by testing category. Appropriate use of these methods and approaches can reduce animal use and improve animal welfare." />
+<link rel="canonical" href="https://ntp.niehs.nih.gov/whatwestudy/niceatm/accept-methods" />
+<meta name="ContentInSearch" content="Y" />
+<meta name="Org" content="Alternative Methods" />
+<meta name="ContentType" content="ICCVAM|Impact on Regulations|News &amp; FAQs" />
+<meta property="og:site_name" content="National Toxicology Program" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ntp.niehs.nih.gov/whatwestudy/niceatm/accept-methods" />
+<meta property="og:title" content="Alternative Methods Accepted by US Agencies" />
+<meta property="og:updated_time" content="2024-05-15T15:41:12-0400" />
+<meta property="og:country_name" content="United States" />
+<meta property="article:modified_time" content="2024-05-15T15:41:12-0400" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@NIEHS" />
+<meta name="twitter:creator" content="@NIEHS" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/ntp/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <!-- End No Index -->
+  <title>Alternative Methods Accepted by US Agencies</title>
+  <!-- Begin No Index -->
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_-9g9ICRjKn7VaicfTGkyi7HP3N6iZ9rQaKIvTReZdZw.css?delta=0&amp;language=en&amp;theme=ntp&amp;include=eJxljkEOwjAMBD-UKk-K3MREpo5dYrcivB4hpKqF2-wcdjcvWMi1J5KC4jNrXuKJQ9aO8f7YsI9QVStjAgEeTtnirwjia3J4qmgbqeNORioWDwo2zLHFGQxDZjAbF25oBhXtOyvaGzC98NMbK-sMPJkPJqkXlTutbmGzG5aqe_o7ygplOuKUi7wBa5Viig" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_WwTuAQe71VQXhM2ltc7QKsUFaVAFixwV3TPl37WnpgI.css?delta=1&amp;language=en&amp;theme=ntp&amp;include=eJxljkEOwjAMBD-UKk-K3MREpo5dYrcivB4hpKqF2-wcdjcvWMi1J5KC4jNrXuKJQ9aO8f7YsI9QVStjAgEeTtnirwjia3J4qmgbqeNORioWDwo2zLHFGQxDZjAbF25oBhXtOyvaGzC98NMbK-sMPJkPJqkXlTutbmGzG5aqe_o7ygplOuKUi7wBa5Viig" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_R8FC_ncOOS20Im3pM-EaMGQaeS87sYdLT1UD1PdRP4Q.css?delta=2&amp;language=en&amp;theme=ntp&amp;include=eJxljkEOwjAMBD-UKk-K3MREpo5dYrcivB4hpKqF2-wcdjcvWMi1J5KC4jNrXuKJQ9aO8f7YsI9QVStjAgEeTtnirwjia3J4qmgbqeNORioWDwo2zLHFGQxDZjAbF25oBhXtOyvaGzC98NMbK-sMPJkPJqkXlTutbmGzG5aqe_o7ygplOuKUi7wBa5Viig" />
+
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/421911","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"google_analytics":{"account":"UA-126482947-14 ","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"siteEnv":"prod","user":{"uid":0,"permissionsHash":"7bf9f5d4e2e406ebb277282fd9dd4e908bd104227b65d93169ec47e49faabb46"}}</script>
+<script src="/sites/default/files/js/js_osUUpDC-1XbXywVjKtAyoT526PRkGtt4h3bjOSxPY-s.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ntp&amp;include=eJxljkEOwjAMBD-UKk-K3MREpo5dYrcivB4hpKqF2-wcdjcvWMi1J5KC4jNrXuKJQ9aO8f7YsI9QVStjAgEeTtnirwjia3J4qmgbqeNORioWDwo2zLHFGQxDZjAbF25oBhXtOyvaGzC98NMbK-sMPJkPJqkXlTutbmGzG5aqe_o7ygplOuKUi7wBa5Viig"></script>
+
+  <!-- End No Index -->
+  <meta name="google-site-verification" content="n4eIeknF7QoYBJrb89Vq4GPI7-DT46DxIaDavk_bnL8" />
+</head>
+<body class="page-whatwestudy page-whatwestudy-niceatm page-whatwestudy-niceatm-accept-methods page-page page-node-type-page" id="">
+<div id="skip-nav">
+      <a href="#main-nav">Skip to Main Navigation</a>
+      <a href="#pagecontent">Skip to Page Content</a>
+</div>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<header id="top">
+        <div id="block-usagovheader" class="block-content--usa-gov-header block-type-block-content block block-block-content block-block-contentda235eee-dab8-4b02-b7c5-282d73fec629">
+  
+    
+      <div class="usa-banner">
+<div class="usa-accordion">
+<div class="usa-banner-header">
+<div class="usa-grid usa-banner-inner"><img alt="U.S. flag" src="/sites/default/files/images/template/favicon-57.png" /><p>An official website of the United States government</p>
+<button aria-expanded="false" class="usa-accordion-button usa-banner-button" id="gov-banner-button"><span class="usa-banner-button-text">Here's how you know </span></button></div>
+</div>
+
+<div class="usa-banner-content usa-accordion-content usa-closed" id="gov-banner">
+<div class="usa-banner-guidance-gov usa-width-one-half"><img alt="Dot gov" class="usa-banner-icon usa-media_block-img" src="/sites/default/files/images/template/dot-gov.svg" /><div class="usa-media_block-body">
+<p><strong>The .gov means it’s official.</strong><br />
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.</p>
+</div>
+</div>
+
+<div class="usa-banner-guidance-ssl usa-width-one-half"><img alt="Https" class="usa-banner-icon usa-media_block-img" src="/sites/default/files/images/template/icon-https.svg" /><div class="usa-media_block-body">
+<p><strong>The site is secure.</strong><br />
+The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  </div>
+
+
+            
+    <nav class="header-nav">
+	<div class="row">
+	  <div class="column"></div>
+	  <div class="column shrink">
+				<ul class="menu">
+		  		  <li>
+			<a href="/events" data-drupal-link-system-path="node/445756">Calendar &amp; Events</a>
+					  </li>
+		  		  <li>
+			<a href="/media" data-drupal-link-system-path="node/445736">News &amp; Media</a>
+					  </li>
+		  		  <li>
+			<a href="/getinvolved" data-drupal-link-system-path="node/445741">Get Involved</a>
+					  </li>
+		  		  <li>
+			<a href="/support" data-drupal-link-system-path="node/445731">Support</a>
+					  </li>
+		  		</ul>
+			  </div>
+	</div>
+  </nav>
+
+
+
+
+<div id="header-print" class="print-only">
+  <img src="/themes/ntp/images/logo_print.gif" alt="National Toxicology Program">
+</div>
+<div class="header-identity">
+  <div class="row medium-unstack align-middle">
+    <div class="columns large-4 medium-6 small-12 small-order-1 header-logo">
+      <a href="/">
+        <img src="/themes/ntp/logo.svg" title="Return to the NTP home page" alt="National Toxicology Program - U.S. Department of Health and Human Services">
+      </a>
+    </div>
+    <div class="columns large-4 large-offset-4 medium-6 small-order-2 header-search">
+      <form name="search" id="search" class="input-group" method="get" action="https://ntpsearch.niehs.nih.gov/">
+        <span class="input-group-label"><span class="fa fa-search" aria-hidden="true"></span></span>
+        <input type="text" placeholder="Search the NTP Website" id="query-search" class="input-group-field queryAutocomplete ui-autocomplete-input" name="query" title="Search the NTP Website" aria-label="Search Keyword">
+        <input type="submit" class="button input-group-button" value="Search">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+            <nav class="row column top-bar" tabindex="-1" id="main-nav">
+  <div class="mobile-menu flex-container hide-for-large medium-12">
+    <button id="mobile-nav-menu" class="flex-child-grow" aria-label="Menu">
+      Menu
+    </button>
+          <button id="mobile-nav-share" class="flex-child-grow" aria-label="Share">
+        Share
+      </button>    <button id="mobile-nav-search" class="flex-child-grow" aria-label="Search">
+      Search
+    </button>
+  </div>
+  <ul id="mobile-nav"
+      class="menu vertical large-horizontal mobile-menu-item medium-12"
+      data-responsive-menu="drilldown large-dropdown" data-auto-height="true"
+      data-back-button-position="bottom">
+                                                                                <li class="has-submenu is-dropdown"><a
+                    href="/whatwestudy">What We Study</a>
+                  <ul class="submenu menu vertical" data-submenu>
+                                                                            <li  class="no-dropdown"><a href="/whatwestudy/6ppd-q" data-drupal-link-system-path="node/463306">Emerging Issues Coordination</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whatwestudy/assessments" data-drupal-link-system-path="node/445261">Health Effects Assessments</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whatwestudy/topics" data-drupal-link-system-path="node/445716">Highlighted Research Topics</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whatwestudy/niceatm" data-drupal-link-system-path="node/445761">NICEATM: Alternative Methods</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whatwestudy/testpgm" data-drupal-link-system-path="node/445746">Testing Program</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whatwestudy/tox21" data-drupal-link-system-path="node/444811">Tox21</a></li>
+                                        
+                  </ul>
+                </li>
+                                                                                <li  class="no-dropdown"><a href="/data" data-drupal-link-system-path="node/445711">Data &amp; Resources</a></li>
+                                                                  <li  class="no-dropdown"><a href="/publications" data-drupal-link-system-path="node/445721">Publications</a></li>
+                                                                                  <li class="has-submenu is-dropdown"><a
+                    href="/whoweare">Who We Are</a>
+                  <ul class="submenu menu vertical" data-submenu>
+                                                                            <li  class="no-dropdown"><a href="/whoweare/about" data-drupal-link-system-path="node/421826">Mission &amp; Goals</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whoweare/advisory" data-drupal-link-system-path="node/445276">Advisory Board &amp; Committees</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whoweare/history" data-drupal-link-system-path="node/445086">History &amp; Milestones</a></li>
+                                                                  <li  class="no-dropdown"><a href="/whoweare/organization" data-drupal-link-system-path="node/421831">Organization</a></li>
+                                        
+                  </ul>
+                </li>
+                                                      
+      </ul>
+      <div id="mobile-share" class="mobile-menu-display mobile-menu-item medium-12">
+    <div class="noprint"></div>
+                              <div id="friendly-url-mobile">
+        <span class="copytinyurl" data-clipboard-text="https://ntp.niehs.nih.gov/go/regaccept"
+              title="Copy link to clipboard">https://ntp.niehs.nih.gov/go/regaccept</span>
+        <button class="copytinyurl" data-clipboard-text="https://ntp.niehs.nih.gov/go/regaccept"
+                title="Copy link to clipboard"><i class="fa fa-copy"></i>
+        </button>
+      </div>
+      </div>
+  <div id="mobile-search" class="mobile-menu-display mobile-menu-item medium-12"
+       style="display: none;"></div>
+</nav>
+
+
+
+  </header>
+
+<main tabindex="-1" role="main" id="pagecontent" class="no-sidebars default-width">
+    
+    <div id="block-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <a id="main-nav"></a>	<nav class="row column" role="navigation" aria-label="You are here:">
+      <ol class="breadcrumbs">
+				  <li  title="Home"  >
+						  			  <a href="/"   >Home</a> 
+					  </li>
+				  <li  title="What We Study"  >
+						  			  <a href="/whatwestudy"   >What We Study</a> 
+					  </li>
+				  <li  title="NICEATM: Alternative Methods"  >
+						  			  <a href="/whatwestudy/niceatm"   >NICEATM: Alternative Methods</a> 
+					  </li>
+				  <li  title="Alternative Methods Accepted by US Agencies"   class="page-title" >
+						  			  Alternative Methods Accepted by US Agencies
+					  </li>
+		      </ol>
+	</nav>
+
+  </div>
+
+
+  <div class="row large-unstack">
+          
+
+<nav id="leftnav" class="layout-sidebar-left nav-left small-12 large-3 small-order-2 large-order-1 columns ">
+                <ul class="vertical menu levelnav">
+        <li class="nav-left-title"><a href="/whatwestudy/niceatm">NICEATM: Alternative Methods</a></li>
+              <li class="" >
+                  <a href="/whatwestudy/niceatm/natl-strategy" data-drupal-link-system-path="node/444871">U.S. Strategic Roadmap</a>
+                      </li>
+          <li class="nav-left-current" >
+                  <span>Accepted Alternative Methods</span>
+                                        <ul class="nested vertical menu">
+              <li class="" >
+                  <a href="/whatwestudy/niceatm/accept-methods/apps" data-drupal-link-system-path="node/445351">Regulatory Applications of 3Rs</a>
+                      </li>
+        </ul>
+  
+              </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/3rs-meetings" data-drupal-link-system-path="node/421871">3Rs Meetings, Workshops &amp; Webinars</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/iccvam" data-drupal-link-system-path="node/421906">ICCVAM</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/test-method-evaluations" data-drupal-link-system-path="node/445801">Test Method Evaluations</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/comptox" data-drupal-link-system-path="node/445781">Computational Toxicology</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/publications-and-presentations" data-drupal-link-system-path="node/421986">Publications and Presentations</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/resources-for-test-method-developers" data-drupal-link-system-path="node/445766">Resources for Test Method Developers</a>
+                      </li>
+          <li class="" >
+                  <a href="/whatwestudy/niceatm/altbib" data-drupal-link-system-path="node/445451">ALTBIB</a>
+                      </li>
+          <li class="" >
+                  <a href="/support/contact/emailus?to=niceatm" data-drupal-link-query="{&quot;to&quot;:&quot;niceatm&quot;}" data-drupal-link-system-path="node/463276">Contact NICEATM</a>
+                      </li>
+        </ul>
+  
+
+
+</nav>
+
+        <!-- Begin Index -->
+      <div data-drupal-messages-fallback class="hidden"></div>
+  
+	
+
+<div id="secondary-pagecontent" class="small-12 no-sidebars large-9 small-order-1 large-order-2 columns">
+  <article about="/whatwestudy/niceatm/accept-methods" typeof="schema:WebPage">
+        
+              <div id="share-widget">
+          <div id="friendly-url">
+      <span class="copytinyurl" data-clipboard-text="https://ntp.niehs.nih.gov/go/regaccept" title="Copy link to clipboard">https://ntp.niehs.nih.gov/go/regaccept</span>  
+      <button class="copytinyurl" data-clipboard-text="https://ntp.niehs.nih.gov/go/regaccept" title="Copy link to clipboard"><i class="fa fa-copy"></i></button>
+    </div>
+  </div>    		  <h1>Alternative Methods Accepted by US Agencies</h1>
+	
+		  <span property="schema:name" content="Alternative Methods Accepted by US Agencies" class="rdf-meta hidden"></span>
+
+
+	<p>The table below includes:</p>
+
+<ul><li>Methods for chemical safety testing that are accepted by U.S. and international regulatory authorities as replacement, reduction, or refinement alternatives to required animal tests.</li>
+	<li>Guidances to support replacement, reduction, or refinement alternatives to animal use for required testing: these documents are recommendations that do not necessarily establish legally enforceable responsibilities.</li>
+</ul><div class="callout blue">
+<p>An overview of non-animal methods that have been proposed for regulatory safety or efficacy testing of chemicals or biological agents can be found in the <a href="https://tsar.jrc.ec.europa.eu/">Tracking System for Alternative Methods (TSAR)</a> resource, provided by the European Union Reference Laboratory for Alternatives to Animal Testing (EURL ECVAM). TSAR tracks progress of an alternative method from submission for validation through to its final adoption by inclusion into the regulatory framework.</p>
+
+<p><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> interact with EURL ECVAM through the <a href="/whatwestudy/niceatm/iccvam/international-partnerships/icatm/index.html" title="International Cooperation on Alternative Test Methods">International Cooperation on Alternative Test Methods</a>.</p>
+</div>
+
+<table data-filter="" data-page-length="25" data-search-input="Alternative Methods"><thead><tr><th data-filter-by="data" data-filter-sort="asc">Toxicity Area</th>
+			<th data-filter-sort="asc">Method</th>
+			<th><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> or ICCVAM Agency Contributions</th>
+			<th>Regulatory Acceptance/ Endorsement and Applicable Regulations</th>
+		</tr></thead><tbody><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="https://www.epa.gov/reviewing-new-chemicals-under-toxic-substances-control-act-tsca/framework-assess-eye-irritation-or">Framework to assess eye irritation or corrosion in new chemicals </a></td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA guidance document (2024)</li>
+			</ul></td>
+		</tr><tr><td>Immunotoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-444a-in-vitro-immunotoxicity_27b10ba3-en">In vitro immunotoxicity: IL-2 Luc assay</a> (reduction and replacement of animal use)</td>
+			<td>ICCVAM contributed to U.S. OECD test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 444A (2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 444A<span> (</span><span>2023</span><span>)</span></li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/nonclinical-evaluation-immunotoxic-potential-pharmaceuticals">Nonclinical Evaluation of the Immunotoxic Potential of Pharmaceuticals</a> (reduction and replacement of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance document (2023)</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a href="https://www.cpsc.gov/s3fs-public/Guidance-for-Industry-and-Test-Method-Developers-CPSC-Staff-Evaluation-of-Alternative-Test-Methods-and-Integrated-Testing-Approaches.pdf?VersionId=6EJxcMXMu4PzZEQFQivF3AUZODrMRK5J">Guidance for Industry and Test Method Developers</a>: <abbr title="U.S. Consumer Product Safety Commission">CPSC</abbr> Staff Evaluation of Alternative Test Methods and Integrated Testing Approaches and Data Generated from Such Methods to Support <abbr title="Federal Hazardous Substances Act">FHSA</abbr> Labeling Requirements</td>
+			<td>CPSC activity</td>
+			<td>
+			<ul><li>U.S.: CPSC guidance document (2022)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-467-defined-approaches-for-serious-eye-damage-and-eye-irritation_28fe2841-en">Defined approaches for serious eye damage and eye irritation</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr><span> contributed to U.S. </span><abbr title="Organisation for Economic Co-operation and Development">OECD</abbr><span> test guideline review</span></td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 467 (2022)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline <span>467</span><span> (</span><span>2022</span><span>)</span></li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-251-rapid-androgen-disruption-activity-reporter-radar-assay_da264d82-en">Rapid androgen disruption activity reporter assay</a> (replacement and reduction of animal use)</td>
+			<td><span>-</span></td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 251 (2022)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline <span>251</span><span> (</span><span>2022</span><span>)</span></li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-406-skin-sensitisation_9789264070660-en">Guinea pig tests for skin sensitization</a> (update refines animal use and recommends first use of non-animal methods)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 406 (last updated 2022)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 406 (last updated 2022)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Phototoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-498-in-vitro-phototoxicity-reconstructed-human-epidermis-phototoxicity-test-method_7b2f9ea0-en">In vitro reconstructed human epidermis method for phototoxicity</a></td>
+			<td>ICCVAM members contributed to a retrospective review of available information to support the guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 498 (2021, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 498 (2021, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/guideline-no-497-defined-approaches-on-skin-sensitisation_b92879a4-en">Defined approaches on skin sensitization </a>(replaces animal use)</td>
+			<td>NICEATM, ICCVAM, and <a href="/whatwestudy/niceatm/iccvam/international-partnerships/icatm/index.html" title="International Cooperation on Alternative Test Methods">international collaborators</a> developed and sponsored guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guideline 497 (2021, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guideline 497 (2021, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-250-easzy-assay-detection-of-endocrine-active-substances-acting-through-estrogen-receptors-using-transgenic-tg-cyp19a1b-gfp-zebrafish-embryos_0a39b48b-en">EASZY assay - detection of endocrine active substances using zebrafish embryos </a>(reduces/replaces animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 250 (2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 250 (2021)</li>
+			</ul></td>
+		</tr><tr><td>Ecotoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-249-fish-cell-line-acute-toxicity-the-rtgill-w1-cell-line-assay_c66d5190-en">Fish cell line acute toxicity - RTgill-W1 cell line assay</a> (reduces/replaces animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 249 (2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 249 (2021)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/BBAPP0011.pdf">Cryopreservation protocol for leptospiral strains for vaccine testing</a> (reduces animal use)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA Center for Veterinary Biologics Protocol BBAPP0011.01 (2018)</li>
+			</ul></td>
+		</tr><tr><td>Developmental and Reproductive Toxicity</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s5r3-detection-reproductive-and-developmental-toxicity-human-pharmaceuticals">Guidance on reproductive and developmental toxicity studies for human pharmaceuticals</a> (includes provisions for reducing animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="International Conference on Harmonisation">ICH</abbr> Guidance Document S5(R3) in 2021</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via ICH Guidance Document <span>S5(R3) in 20</span><span>21</span></li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/severely-debilitating-or-life-threatening-hematologic-disorders-nonclinical-development">Guidance on nonclinical studies for pharmaceuticals for hematologic disorders</a> (includes provisions for reducing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance document (2019)</li>
+			</ul></td>
+		</tr><tr><td>Developmental and Reproductive Toxicity</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/oncology-pharmaceuticals-reproductive-toxicity-testing-and-labeling-recommendations-guidance">Guidance on reproductive toxicity testing for oncology radiopharmaceuticals</a> (includes provisions for reducing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance document (2019)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/oncology-therapeutic-radiopharmaceuticals-nonclinical-studies-and-labeling-recommendations-guidance">Guidance on nonclinical studies for oncology therapeutic radiopharmaceuticals</a> (includes provisions for reducing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance document (2019)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="https://www.fda.gov/media/107641/download">Guidance on nonclinical studies of microdose radiopharmaceutical diagnostic drugs</a> (includes provisions for reducing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance document (2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.fda.gov/media/100344/download">Guidance on nonclinical evaluation of cancer drugs</a> (includes provisions for reducing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA Q &amp; A guidance document (2018)</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a href="https://www.fda.gov/media/100027/download">Guidance on use of microsampling techniques in toxicokinetics studies</a> (includes provisions for reducing and refining animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA Q &amp; A guidance document (2018)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.fda.gov/media/135312/download">Guidance on safety evaluation of immunotoxic potential of drugs and biologics</a> (includes provisions for reducing or replacing animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: <span>FDA guidance (2020) provides for use of in silico, in chemico, and in vitro studies to predict human skin sensitization</span></li>
+			</ul></td>
+		</tr><tr><td>Acute Dermal Systemic Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-428-skin-absorption-in-vitro-method_9789264071087-en">In vitro dermal absorption methods</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review, expert consultation meetings</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 428 (2004)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 428 (2004)</li>
+			</ul></td>
+		</tr><tr><td>Acute Dermal Systemic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-402-acute-dermal-toxicity_9789264070585-en">Acute dermal toxicity</a> (includes provisions for waiving test and reducing or refining animal use)</td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists participated in drafting and editing the revised test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 402 (1987, revised 2017)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 402 (1987, revised 2017)</li>
+			</ul></td>
+		</tr><tr><td>Acute Dermal Systemic Toxicity</td>
+			<td><a href="https://www.epa.gov/sites/production/files/2021-01/documents/guidance-for-waiving-acute-dermal-toxicity.pdf">Guidance for waiving acute dermal toxicity tests for pesticide formulations and supporting retrospective analysis</a> (reduction of animal use)</td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity; <abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> contributed to data analysis</td>
+			<td>
+			<ul><li>U.S.: EPA guidance (2016, finalized 2020) provides for authorizing waivers of required dermal toxicity testing for formulated pesticide products from standard requirements under 40 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 158</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-412-subacute-inhalation-toxicity-28-day-study_9789264070783-en">Subacute inhalation toxicity: 28-day study</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 412 (1981, revised 2009, 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 412 (1981, revised 2009, 2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-413-subchronic-inhalation-toxicity-90-day-study_9789264070806-en">Subchronic inhalation toxicity: 90-day study</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 412 (1981, revised 2009, 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 412 (1981, revised 2009, 2018)</li>
+			</ul></td>
+		</tr><tr><td>Acute Inhalation Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-436-acute-inhalation-toxicity-acute-toxic-class-method_9789264076037-en">Inhalation toxicity - acute toxic class method</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 436 (2009)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 436 (2009)</li>
+			</ul></td>
+		</tr><tr><td>Acute Inhalation Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-433-acute-inhalation-toxicity-fixed-concentration-procedure_9789264284166-en;jsessionid=j4innnfoodqa.x-oecd-live-02">Inhalation toxicity testing - fixed concentration procedure</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 433 (2017, revised 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 433 (2017, revised 2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-408-repeated-dose-90-day-oral-toxicity-study-in-rodents_9789264070707-en">Repeated dose 90-day oral toxicity study in rodents</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 408 (revised 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 408 (revised 2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-452-chronic-toxicity-studies_9789264071209-en">Chronic toxicity studies</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 452 (1981, revised 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 452 (1981, revised 2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-453-combined-chronic-toxicity-carcinogenicity-studies_9789264071223-en">Combined chronic toxicity/carcinogenicity studies</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 453 (1981, revised 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 453 (1981, revised 2018)</li>
+			</ul></td>
+		</tr><tr><td>Chronic Toxicity</td>
+			<td><a href="https://www.epa.gov/sites/production/files/2020-02/documents/final-waiver-guidance-avian-sub-acute-dietary.pdf">Guidance for waiving subacute avian dietary tests for pesticide registration and supporting retrospective analysis </a></td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA guidance (2019, finalized 2020) provides for authorizing waivers of required subacute avian dietary toxicity testing for formulated pesticide products from standard requirements under 40 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 158.630</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-425-acute-oral-toxicity-up-and-down-procedure_9789264071049-en">Up-and-down procedure for acute oral toxicity</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2001</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 425 (2001, last revised 2021); <abbr title="U.S. Environmental Protection Agency">EPA</abbr> OPPTS 870.1100 (2002)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 425 (2001, <span>last revised </span><span>2021</span>)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-420-acute-oral-toxicity-fixed-dose-procedure_9789264070943-en">Fixed dose procedure</a> for acute oral toxicity (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to test guideline development</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 420 (2001)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 420 (2001)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-423-acute-oral-toxicity-acute-toxic-class-method_9789264071001-en">Acute toxic class method</a> for acute oral toxicity (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to test guideline development</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 423 (2001)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 423 (2001)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-223-avian-acute-oral-toxicity-test_9789264090897-en">Avian acute oral toxicity test</a> (reduction of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 223 (2010)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 223 (2010)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/acute-systemic-tox/in-vitro-validation/index.html" title="Validation Study of In Vitro Cytotoxicity Test Methods">Acute toxicity in vitro starting dose procedure, 3T3 cells</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> 2001 workshop report; ICCVAM 2006 peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2008</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 129 (2010)</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/acute-systemic-tox/in-vitro-validation/index.html" title="Validation Study of In Vitro Cytotoxicity Test Methods">Acute toxicity in vitro starting dose procedure, <abbr title="normal human keratinocyte">NHK</abbr> cells</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> 2001 workshop report; ICCVAM 2006 peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2008</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 129 (2010)</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization">Harmonized guidance for nonclinical safety studies for pharmaceuticals</a> (reduction of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="International Conference on Harmonisation">ICH</abbr> Guidance Document M3(R2) in 2010</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via ICH Guidance Document M3(R2) in 2010</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s6r1-preclinical-safety-evaluation-biotechnology-derived-pharmaceuticals">Harmonized guidance for preclinical safety evaluation of biotechnology-derived pharmaceuticals</a> (reduction of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="International Conference on Harmonisation">ICH</abbr> Guidance Document S6(R1) in 2012</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via ICH Guidance Document S6(R1) in 2012</li>
+			</ul></td>
+		</tr><tr><td>Acute Oral Systemic Toxicity</td>
+			<td><a class="external-link" href="http://www.fda.gov/food/guidanceregulation/federalstatefoodprograms/ucm2006754.htm" rel="noopener noreferrer" target="_blank">In vitro assays for paralytic shellfish toxin detection</a> (replacement of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Receptor binding assay listed as approved method in National Shellfish Sanitation Program Guide for Control of Molluscan Shellfish (2013)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="/iccvam/suppdocs/feddocs/fda/fda_21_610_10.pdf" title="FDA_21_610_10.pdf">ELISA test for batch potency testing of human tetanus vaccines</a> (refinement: antibody quantification)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: 21 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 610.10; use reviewed on a case-by-case basis</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia (2003)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/biologics-and-vaccines/vaccine-testing/index.html" title="Accepted Alternative Methods for Biologics and Vaccine Testing">ToBI test for batch potency testing of human tetanus vaccines</a> (refinement: antibody quantification)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: 21 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 610.10; use reviewed on a case-by-case basis</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia (2003)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/biologics-and-vaccines/vaccine-testing/index.html" title="Accepted Alternative Methods for Biologics and Vaccine Testing">Use of humane endpoints in animal testing of biological products</a> (refinement of animal use)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Addressed in 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 117.4e; <abbr title="U.S. Department of Agriculture Center for Veterinary Biologics">CVB</abbr> Notice No. 04-09 (2004)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/biologics-and-vaccines/vaccine-testing/index.html" title="Accepted Alternative Methods for Biologics and Vaccine Testing">Relevance of the target animal safety test for batch safety testing of vaccines for veterinary use</a> (refinement of animal use)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.4 provides for authorizing exemptions from standard requirements</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia (2004)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/624.pdf">ELISA test for batch potency testing of Leptospira interrogans serovar Pomona</a> (replacement: antigen quantification)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 624 (2008, updated 2017)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/625.pdf">ELISA test for batch potency testing of Leptospira interrogans serovar Canicola</a> (replacement: antigen quantification)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 625 (2008, updated 2017)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/627.pdf">ELISA test for batch potency testing of Leptospira interrogans serovar Icterohaemorrhagiae</a> (replacement: antigen quantification)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 627 (2008, updated 2017)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/613.pdf">ELISA test for batch potency testing of erysipelas vaccines</a><br />
+			(replacement: antigen quantification)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 613 (2008)</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/626.pdf">ELISA test for batch potency testing of Leptospira kirschneri serovar Grippotyphosa</a> (replacement: antigen quantification)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: USDA <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 626 (2009, updated 2017)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td>Cell-based potency assay for stability and potency of botulinum neurotoxin type A products (replacement of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Allergan, Inc., method accepted by FDA in 2011</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/memo800-211.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> guidelines on master reference qualification and requalification for vaccine potency assays</a> (reduction of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Addressed in 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.8(d)(2); <abbr title="U.S. Department of Agriculture Veterinary Services">VS</abbr> Memorandum 800.211 (2011, updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/memo_800_112.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> guidelines for validation of in vitro potency assays</a> (replacement of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: <abbr title="U.S. Department of Agriculture Veterinary Services">VS</abbr> Memorandum 800.112 (updated 2015): clarifies information found in 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 102.3, 9 CFR 113.8, and VS Memo 800.50.</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/notice_12_12.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> guidelines on use of humane endpoints and methods in animal testing of biological products</a> (refinement of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Addressed in 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 117.4(e); <abbr title="U.S. Department of Agriculture Center for Veterinary Biologics">CVB</abbr> Notice No. 12-12 (2012)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="/whatwestudy/niceatm/3rs-meetings/past-meetings/rabies-wksp-2011/index.html" title="Workshop on Alternative Methods for Rabies Vaccine Testing">Serum neutralization test for potency testing of inactivated veterinary rabies vaccines</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> workshop in 2011</td>
+			<td>
+			<ul><li><abbr title="European Union">EU</abbr>: Published in European Pharmacopoeia Monograph 0451 (2012)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/memo_800_114.pdf">Alternative test procedure for tuberculin, PPD Bovis, intradermic</a> (reduces animal use by 65%)</td>
+			<td><abbr title="U.S. Department of Agriculture">USDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Applies to 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.409(c); described in <abbr title="U.S. Department of Agriculture Veterinary Services">VS</abbr> Memorandum 800.114 (2012)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/preclinical-assessment-investigational-cellular-and-gene-therapy-products"><abbr title="U.S. Food and Drug Administration">FDA</abbr> guidance on preclinical assessment of investigational cellular and gene therapy products</a> (minimization of animal use)</td>
+			<td>FDA activity</td>
+			<td>
+			<ul><li>U.S.: Guidance (2013) applies to products regulated under 42 <abbr title="United States Code">U.S.C.</abbr> 262(i)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/memo_800_102.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> guidance for obtaining an exemption from in vivo testing of Leptospira bacterins</a></td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Applies to 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.101-104; <abbr title="U.S. Department of Agriculture Veterinary Services">VS</abbr> Memorandum 800.102 (2013)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/notice_13_10.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> elimination of the upper limit LD50 for rabies vaccine potency testing</a> (reduction of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Modification to <abbr title="U.S. Department of Agriculture Supplemental Assay Method">SAM</abbr> 308; <abbr title="U.S. Department of Agriculture Center for Veterinary Biologics">CVB</abbr> Notice No. 13-10 (2013)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/memo_800_116.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> provision for exemption to requirement for animal safety testing of veterinary biologics</a> (reduction of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Applies to 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.4; <abbr title="U.S. Department of Agriculture Veterinary Services">VS</abbr> Memorandum 800.116 (2013, updated 2017)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Veterinary International Conference on Harmonisation">VICH</abbr> Guideline 50 (2014)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/notice_15_13.pdf"><abbr title="U.S. Department of Agriculture">USDA</abbr> provision for option to remove back-titration hamsters for potency assays for Leptospira serogroups Canicola and Icterohaemorrhagiae</a> (reduction of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Applies to 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.102 and 113.103; <abbr title="U.S. Department of Agriculture Center for Veterinary Biologics">CVB</abbr> Notice No. 15-13 (2015)</li>
+			</ul></td>
+		</tr><tr><td>Biologics Testing</td>
+			<td><a href="https://www.aphis.usda.gov/animal_health/vet_biologics/publications/notice_17_06.pdf">USDA provision for option to remove back-titration hamsters for potency assays for Leptospira serogroups Pomona and Grippotyphosa</a> (reduction of animal use)</td>
+			<td>USDA activity</td>
+			<td>
+			<ul><li>U.S.: Applies to 9 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 113.102 and 113.103; <abbr title="U.S. Department of Agriculture Center for Veterinary Biologics">CVB</abbr> Notice No. 17-06 (2017)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro-dermal-corr/index.html" title="In Vitro Test Methods for Dermal Corrosivity Testing">Corrositex® in vitro membrane barrier skin corrosivity test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 1999</td>
+			<td>
+			<ul><li>U.S.: Accepted by U.S. agencies in 1999; 49 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 173.137 (2011)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 435 (2006, updated 2015)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro-dermal-corr/index.html" target="_self" title="In Vitro Test Methods for Dermal Corrosivity Testing">EpiSkin™ in vitro human skin model skin corrosivity test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> review and report; recommended in 2002</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019); 49 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 173.137 (2011)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro-dermal-corr/index.html" target="_self" title="In Vitro Test Methods for Dermal Corrosivity Testing">EpiDerm™ in vitro human skin model skin corrosivity test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> review and report; recommended in 2002</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019); 49 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 173.137 (2011)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-431-in-vitro-skin-corrosion-reconstructed-human-epidermis-rhe-test-method_9789264242753-en">SkinEthic™ in vitro human skin model skin corrosivity test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 431 (2004, updated 2013, 2014, 2015, 2016, 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro-dermal-corr/index.html" target="_self" title="In Vitro Test Methods for Dermal Corrosivity Testing">Rat <abbr title="transcutaneous electrical resistance">TER</abbr> in vitro skin corrosivity test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> review and report; recommended in 2002</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 430 (2004, updated 2013, 2015)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 430 (2004, updated 2013, 2015)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-431-in-vitro-skin-corrosion-reconstructed-human-epidermis-rhe-test-method_9789264242753-en">Reconstructed human epidermis in vitro test method for skin corrosivity testing</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 431 (2004, last updated 2019)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 431 (2004, last updated 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-439-in-vitro-skin-irritation-reconstructed-human-epidermis-test-method_9789264242845-en">EpiSkin™ in vitro human skin model skin irritation test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-439-in-vitro-skin-irritation-reconstructed-human-epidermis-test-method_9789264242845-en">EpiDerm™ in vitro human skin model skin irritation test </a>(replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-439-in-vitro-skin-irritation-reconstructed-human-epidermis-test-method_9789264242845-en">SkinEthic™ in vitro human skin model skin irritation test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 439 (2010, last updated 2021)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Corrosivity and Irritation</td>
+			<td><a class="external-link" href="https://one.oecd.org/document/ENV/JM/MONO(2014)19/en/pdf" rel="noopener noreferrer" target="_blank">Guidance document on an integrated approach for testing and assessment for skin corrosion and irritation</a> (replacement of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 203 (2014)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Guidance Document 203 (2014)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Phototoxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-432-in-vitro-3t3-nru-phototoxicity-test_9789264071162-en">3T3 <abbr title="neutral red uptake">NRU</abbr> phototoxicity test for skin photo-irritation</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 432 (2004, updated 2019)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 432 (2004, updated 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Phototoxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-432-in-vitro-3t3-nru-phototoxicity-test_9789264071162-en">3T3 <abbr title="neutral red uptake">NRU</abbr> phototoxicity test: application to UV filter chemicals</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 432 (2004, updated 2019)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 432 (2004, updated 2019)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Phototoxicity</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s10-photosafety-evaluation-pharmaceuticals"><abbr title="U.S. Food and Drug Administration">FDA</abbr> guidance on photosafety evaluation of pharmaceuticals</a> (reduction or replacement of animal use)</td>
+			<td>FDA activity</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="International Conference on Harmonisation">ICH</abbr> Guideline S10 (2015)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via ICH Guideline S10 (2015)</li>
+			</ul></td>
+		</tr><tr><td>Dermal Phototoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/tg-495-ros-reactive-oxygen-species-assay-for-photoreactivity_915e00ac-en">Reactive oxygen species assay for photoreactivity</a> (replacement of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 495 (2019)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 495 (2019)</li>
+			</ul></td>
+		</tr><tr><td>Developmental and Reproductive Toxicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-443-extended-one-generation-reproductive-toxicity-study_9789264185371-en">Extended one-generation reproductive toxicity study</a> (reduction of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> agencies contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 443 (2012, updated 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 443 (2012, updated 2018)</li>
+			</ul></td>
+		</tr><tr><td>Ecotoxicity</td>
+			<td>Revised protocol for evaluation of nontoxic replacements for lead shot (reduction of animal use)</td>
+			<td>Dept. of the Interior activity</td>
+			<td>
+			<ul><li>U.S.: 50 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 20.134</li>
+			</ul></td>
+		</tr><tr><td>Ecotoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-319a-determination-of-in-vitro-intrinsic-clearance-using-cryopreserved-rainbow-trout-hepatocytes-rt-hep_9789264303218-en">Determination of in vitro intrinsic clearance using cryopreserved rainbow trout hepatocytes</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 319A (2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 319A (2018)</li>
+			</ul></td>
+		</tr><tr><td>Ecotoxicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-319b-determination-of-in-vitro-intrinsic-clearance-using-rainbow-trout-liver-s9-sub-cellular-fraction-rt-s9_9789264303232-en">Determination of in vitro intrinsic clearance using rainbow trout liver S9 sub-cellular fraction</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 319B (2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 319B (2018)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td>
+			<p><a href="http://www.oecd-ilibrary.org/environment/test-no-455-performance-based-test-guideline-for-stably-transfected-transactivation-in-vitro-assays-to-detect-estrogen-receptor-agonists-and-antagonists_9789264265295-en">Stably transfected transactivation in vitro assay to detect estrogen receptor agonists and antagonists</a> (replacement of animal use)</p>
+			</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review, expert consultation meetings</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 455 (2009, last updated 2021); <abbr title="U.S. Environmental Protection Agency">EPA</abbr> OPPTS 890.1300 (2009)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 455 (2009, last updated 2021)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-456-h295r-steroidogenesis-assay_9789264122642-en">In vitro H295R steroidogenesis assay</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 456 (2011, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 456 (2011<span>, last updated 2023</span>)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td>
+			<p><a href="/whatwestudy/niceatm/test-method-evaluations/endocrine-disruptors/bg1luc/index.html" target="_self" title="Validation of the VM7Luc Test Method">In vitro VM7Luc <abbr title="estrogen receptor">ER</abbr> <abbr title="transactivation">TA</abbr> agonist assay to identify substances that induce human ER activity</a> (replacement of animal use)</p>
+
+			<p><a href="https://tsar.jrc.ec.europa.eu/test-method/tm2016-09">Link to TSAR Test Method TM2016-09</a></p>
+			</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommendations in 2012</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2012</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 457 (2011)</li>
+				<li>OECD Test Guideline 457 was deleted in 2018 as the method now falls within Test Guideline 455</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td>
+			<p><a href="/whatwestudy/niceatm/test-method-evaluations/endocrine-disruptors/bg1luc/index.html" target="_self" title="Validation of the VM7Luc Test Method">In vitro VM7Luc <abbr title="estrogen receptor">ER</abbr> <abbr title="transactivation">TA</abbr> antagonist assay to identify substances that inhibit human ER activity</a> (replacement of animal use)</p>
+
+			<p><a href="https://tsar.jrc.ec.europa.eu/test-method/tm2016-09">Link to TSAR Test Method TM2016-09</a></p>
+			</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommendations in 2012</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2012</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 457 (2011)</li>
+				<li>OECD Test Guideline 457 was deleted in 2018 as the method now falls within Test Guideline 455</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-493-performance-based-test-guideline-for-human-recombinant-estrogen-receptor-hrer-in-vitro-assays-to-detect-chemicals-with-er-binding-affinity_9789264242623-en">Performance-based test guideline for human recombinant estrogen receptor binding assays</a></td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> agency scientists contributed to <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 493 (2015)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 493 (2015)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="https://www.epa.gov/endocrine-disruption/use-high-throughput-assays-and-computational-tools-endocrine-disruptor">Integrated testing strategy to identify chemicals with the potential to interact with the estrogen receptor</a></td>
+			<td>Developed and validated by <abbr title="U.S. Environmental Protection Agency">EPA</abbr> and <abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> scientists</td>
+			<td>
+			<ul><li>U.S.: Accepted by EPA in 2015 as an alternative to three Tier 1 tests used in the Endocrine Disruptor Screening Program</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-458-stably-transfected-human-androgen-receptor-transcriptional-activation-assay-for-detection-of-androgenic-agonist-and-antagonist-activity-of-chemicals_9789264264366-en">Stably transfected human <abbr title="androgen receptor">AR</abbr> <abbr title="transactivation">TA</abbr> assay for detection of androgenic agonist and antagonist activity of chemicals</a></td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> agency scientists contributed to <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 458 (2016, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 458 (2016<span>, </span> last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Endocrine Disruptors</td>
+			<td><a href="https://www.regulations.gov/document/EPA-HQ-OPPT-2009-0576-0004">Aromatase (human recombinant)</a></td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA <abbr title="Endocrine Disruptor Screening Program">EDSP</abbr> Test Guideline <abbr title="Office of&#10;&#9;&#9;Prevention, Pesticides and Toxic Substances">OPPTS</abbr> 890.1200</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s1br1-addendum-s1b-testing-carcinogenicity-pharmaceuticals">Guidance on testing for carcinogenicity of pharmaceuticals</a> (reduction of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="International Conference on Harmonisation">ICH</abbr> Guidance Document S1B(R1) in 2022</li>
+				<li>EU: <span>Accepted via ICH Guidance Document S1B(R1) in 2022</span></li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-451-carcinogenicity-studies_9789264071186-en">Carcinogenicity studies</a> (reduction of animal use)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 451 (1981, updated 2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 451 (1981, updated 2018)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-473-in-vitro-mammalian-chromosomal-aberration-test_9789264264649-en">In vitro mammalian chromosomal aberration test</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 473 (1983, last updated 2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 473 (1983, last updated 2016)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-487-in-vitro-mammalian-cell-micronucleus-test_9789264264861-en">In vitro mammalian cell micronucleus test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group contributed to U.S. OECD test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 487 (2010, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 487 (2010, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-489-in-vivo-mammalian-alkaline-comet-assay_9789264264885-en">In vivo mammalian alkaline comet assay</a> (reduction of animal use)</td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists served on validation management team</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 489 (2014, updated 2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 489 (2014, updated 2016)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-490-in-vitro-mammalian-cell-gene-mutation-tests-using-the-thymidine-kinase-gene_9789264264908-en">In vitro mammalian cell gene mutation tests using the thymidine kinase assay</a></td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> agency scientists contributed to <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 490 (2015, updated 2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 490 (2015, updated 2016)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-476-in-vitro-mammalian-cell-gene-mutation-tests-using-the-hprt-and-xprt-genes_9789264264809-en">In vitro mammalian cell gene mutation tests using the HPRT and XPRT genes</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 476 (2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 476 (2016)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-471-bacterial-reverse-mutation-test_9789264071247-en">Bacterial reverse mutation test</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 471 (2020)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 471 (2020)</li>
+			</ul></td>
+		</tr><tr><td>Genetic Toxicity/ Carcinogenicity</td>
+			<td><a href="https://tsar.jrc.ec.europa.eu/test-method/tm2004-07">In vitro BALB/c 3T3 cell transformation assay</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Included on <abbr title="U.S. Envitronmental Protection Agency">EPA</abbr> list of alternative methods and strategies considered for use under <abbr title="Toxic Substances Control Act">TSCA</abbr> (2019)</li>
+				<li>EU: Evaluated by <abbr title="European Union Reference Laboratory for Alternatives to Animal Testing">EURL ECVAM</abbr> (2012)</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a class="external-link" href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=env/jm/mono%282013%296&amp;doclanguage=en" rel="noopener noreferrer" target="_blank">Guidance document on developing and assessing adverse outcome pathways</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 184 (2013)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Guidance Document 184</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a class="external-link" href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=env/jm/mono(2016)28&amp;doclanguage=en" rel="noopener noreferrer" target="_blank">Guidance document on the reporting of defined approaches to be used within integrated approaches to testing and assessment</a></td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to development of the guidance document</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 255 (2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Guidance Document 255</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a class="external-link" href="https://www.epa.gov/pesticide-registration/bridging-or-waiving-data-requirements" rel="noopener noreferrer" target="_blank">Guidance for waiving or bridging of mammalian acute toxicity tests for pesticides and pesticide products</a> (reduction of animal use)</td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA guidance (2012) provides for authorizing exemptions from standard requirements under 40 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 158.500, 40 CFR 161.340, other regulations and notices</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a class="external-link" href="https://www.cpsc.gov/Business--Manufacturing/Testing-Certification/Recommended-Procedures-Regarding-the-CPSCs-Policy-on-Animal-Testing/" rel="noopener noreferrer" target="_blank">Guidance regarding replacement, reduction, and refinement of animal use for testing done under the Federal Hazardous Substances Act</a></td>
+			<td><abbr title="U.S. Consumer Product Safety Commission">CPSC</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: 15 <abbr title="United States Code">U.S.C.</abbr> 1261–1278</li>
+			</ul></td>
+		</tr><tr><td>Multiple Toxicities</td>
+			<td><a class="external-link" href="https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/process-establishing-implementing-alternative" rel="noopener noreferrer" target="_blank">Process for evaluating and implementing alternative approaches to traditional in vivo acute toxicity studies for <abbr title="Federal Insecticde, Fungicide, and Rodenticide Act">FIFRA</abbr> regulatory use</a> (replacement and reduction of animal use)</td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: 40 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 158</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro/index.html" target="_self" title="Evaluations of In Vitro Test Methods">Bovine corneal opacity and permeability in vitro test method</a> to identify severe eye irritants/corrosives or chemicals not requiring eye hazard classification (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> review and report; recommended in 2007</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2008; 2013 update accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 437 (2009, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 437 (2009, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-438-isolated-chicken-eye-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_9789264203860-en">Isolated chicken eye in vitro test method</a> to identify severe eye irritants/corrosives or chemicals not requiring eye hazard classification (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> review and report; recommended in 2007</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2008; 2013 update accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 438 (2009, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 438 (2009, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/ocular/in-vitro/index.html" title="Evaluations of In Vitro Test Methods">Cytosensor microphysiometer in vitro test method for eye safety testing</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2010</td>
+			<td>
+			<ul><li>Accepted by U.S. agencies in 2011 (<abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline under consideration)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-405-acute-eye-irritation-corrosion_9789264185333-en;jsessionid=j4innnfoodqa.x-oecd-live-02">Use of anesthetics, analgesics, and humane endpoints for in vivo eye safety testing</a> (refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2010</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2011</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via updated <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 405 (2012, last revised 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a class="external-link" href="https://one.oecd.org/document/env/jm/mono(2011)45/rev1/en/pdf" rel="noopener noreferrer" target="_blank">Histopathological evaluation and collection of data for identification of nonsevere irritants using in vitro methods</a></td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 160 (2011)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Guidance Document 160 (2011)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a class="external-link" href="https://www.epa.gov/pesticide-registration/alternate-testing-framework-classification-eye-irritation-potential-epa" rel="noopener noreferrer" target="_blank">Non-animal testing scheme for assessing eye irritation potential of antimicrobial cleaning products</a></td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA guidance (2013, updated 2015) describes a non-animal testing scheme to satisfy the in vivo data requirement for eye irritation in 40 <abbr title="U.S. Code of Federal Regulations">CFR</abbr> 158 for antimicrobial cleaning products</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-405-acute-eye-irritation-corrosion_9789264185333-en;jsessionid=j4innnfoodqa.x-oecd-live-02">Recommendation to perform weight-of-evidence analysis and non-animal testing strategies before in vivo testing</a></td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists served on expert panel and commented on draft test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via updated <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 405 (2017, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via updated OECD Test Guideline 405 (2017, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-460-fluorescein-leakage-test-method-for-identifying-ocular-corrosives-and-severe-irritants_9789264185401-en">In vitro fluorescein leakage test method for identifying ocular corrosives and severe irritants</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> contributed to <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> test guideline review</td>
+			<td>
+			<ul><li>U.S.: Accepted via OECD Test Guideline 460 (2012, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 460 (2012, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-491-short-time-exposure-in-vitro-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_9789264242432-en">Short time exposure test for identification of ocular corrosives and substances not requiring ocular hazard labeling</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group scientists served on validation management team and commented on draft test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 491 (2015, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 491 (2015, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-492-reconstructed-human-cornea-like-epithelium-rhce-test-method-for-identifying-chemicals-not-requiring-classification-and-labelling-for-eye-irritation-or-serious-eye-damage_9789264242548-en">Reconstructed human cornea-like epithelium test for identification of substances not requiring ocular hazard labeling</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> working group scientists served on validation management team and commented on draft test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 492 (2015, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 492 (2015, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/tg-494-vitrigel-eye-irritancy-test-method-for-identifying-chemicals-not-requiring-classification-and-labelling-for-eye-irritation-or-serious-eye-damage_9f20068a-en">Vitrigel-Eye Irritancy test method for identifying chemicals not requiring ocular hazard labeling</a> (replacement of animal use)</td>
+			<td>NICEATM scientists served on the management team for the validation study; ICCVAM scientist participated in the peer review</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 494 (2019, updated 2021)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 494 (2019, updated 2021)</li>
+			</ul></td>
+		</tr><tr><td>Ocular Corrosivity and Irritation</td>
+			<td>
+			<p><a href="https://www.oecd-ilibrary.org/environment/test-no-496-in-vitro-macromolecular-test-method-for-identifying-chemicals-inducing-serious-eye-damage-and-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_970e5cd9-en">In vitro macromolecular test method for identifying chemicals inducing serious eye damage and chemicals not requiring classification for eye irritation or serious eye damage</a></p>
+			</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 496 (2019, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 496 (2019, last updated 2023)</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/pyrogen-tests/index.html" target="_self" title="In Vitro Pyrogen Test Methods">Human whole blood/interleukin-1β in vitro pyrogen test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by <abbr title="U.S. Food and Drug Administration">FDA</abbr> in 2009; use addressed in June 2012 FDA guidance on pyrogen testing</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/pyrogen-tests/index.html" target="_self" title="In Vitro Pyrogen Test Methods">Human whole blood/interleukin-1β in vitro pyrogen test: application of cryopreserved human whole blood</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by <abbr title="U.S. Food and Drug Administration">FDA</abbr> in 2009; use addressed in June 2012 FDA guidance on pyrogen testing</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/pyrogen-tests/index.html" target="_self" title="In Vitro Pyrogen Test Methods">Human whole blood/interleukin-6 in vitro pyrogen test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by <abbr title="U.S. Food and Drug Administration">FDA</abbr> in 2009; use addressed in June 2012 FDA guidance on pyrogen testing</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/pyrogen-tests/index.html" target="_self" title="In Vitro Pyrogen Test Methods">Human peripheral blood mononuclear cell/interleukin-6 in vitro pyrogen test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by <abbr title="U.S. Food and Drug Administration">FDA</abbr> in 2009; use addressed in June 2012 FDA guidance on pyrogen testing</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/pyrogen-tests/index.html" target="_self" title="In Vitro Pyrogen Test Methods">Monocytoid cell line Mono Mac 6/interleukin-6 in vitro pyrogen test</a> (replacement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2008</td>
+			<td>
+			<ul><li>U.S.: Accepted by <abbr title="U.S. Food and Drug Administration">FDA</abbr> in 2009; use addressed in June 2012 FDA guidance on pyrogen testing</li>
+				<li><abbr title="European Union">EU</abbr>: Published in European Pharmacopeia</li>
+			</ul></td>
+		</tr><tr><td>Pyrogen Testing</td>
+			<td><a class="external-link" href="http://www.fda.gov/drugs/guidancecomplianceregulatoryinformation/guidances/ucm314718.htm" rel="noopener noreferrer" target="_blank">In vitro monocyte activation type pyrogen test</a> (replacement of animal use)</td>
+			<td><abbr title="U.S. Food and Drug Administration">FDA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: FDA guidance (2012) provides for use in place of <abbr title="U.S. Pharmacopeia">USP</abbr> methods</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/skin-sens/llna/index.html" title="ICCVAM Evaluations of the Murine Local Lymph Node Assay (LLNA)"><abbr title="murine local lymph node assay">LLNA</abbr> for skin sensitization</a> (reduction and refinement of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 1999</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 1999; <abbr title="U.S. Environmental Protection Agency">EPA</abbr> OPPTS 870.2600 (2003), <abbr title="U.S. Food and Drug Administration">FDA</abbr> Guidance for Industry: Immunotoxicology Evaluation of Investigational New Drugs (2002), <abbr title="International Organization for Standardization">ISO</abbr> (2002)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 429 (2002, updated 2010)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/skin-sens/llna/index.html" title="ICCVAM Evaluations of the Murine Local Lymph Node Assay (LLNA)">Updated <abbr title="murine local lymph node assay">LLNA</abbr> protocol</a> (requires 20% fewer animals)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2009</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2010; <abbr title="U.S. Environmental Protection Agency">EPA</abbr> updated policy on the use of the LLNA for end-use pesticide products in 2011</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via updated <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 429 (2010)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/skin-sens/llna/index.html" title="ICCVAM Evaluations of the Murine Local Lymph Node Assay (LLNA)">Reduced <abbr title="murine local lymph node assay">LLNA</abbr> protocol</a> (requires 40% fewer animals by using only the high dose group)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2009</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2010</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via updated <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 429 (2010)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-442a-skin-sensitization_9789264090972-en"><abbr title="murine local lymph node assay">LLNA</abbr>: DA for skin sensitization testing</a> (a nonradioisotopic LLNA test method)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2010</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2010</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via updated <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 442A (2010)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.oecd-ilibrary.org/environment/test-no-442b-skin-sensitization_9789264090996-en"><abbr title="murine local lymph node assay">LLNA</abbr>: BrdU-ELISA for skin sensitization testing</a> (a nonradioisotopic LLNA test method)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommended in 2010</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2010; updates accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 442B (2018)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 442B (2010, updated 2018)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="/whatwestudy/niceatm/test-method-evaluations/skin-sens/llna/index.html" title="ICCVAM Evaluations of the Murine Local Lymph Node Assay (LLNA)"><abbr title="murine local lymph node assay">LLNA</abbr> for potency categorization of skin sensitizers</a> (refinement and reduction of animal use)</td>
+			<td><abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> peer review and report; recommendations in 2011</td>
+			<td>
+			<ul><li>U.S.: Accepted by agencies in 2012</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td>Adverse outcome pathway for skin sensitization initiated by covalent binding to proteins<br />
+			(<a class="external-link" href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=env/jm/mono%282012%2910/part1&amp;doclanguage=en" rel="noopener noreferrer" target="_blank">Part 1</a>) (<a class="external-link" href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=env/jm/mono%282012%2910/part2&amp;doclanguage=en" rel="noopener noreferrer" target="_blank">Part 2</a>)</td>
+			<td>-</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 168 (2012)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Guidance Document 168 (2012)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://cpsc-d8-media-prod.s3.amazonaws.com/s3fs-public/pdfs/blk_pdf_strongsensitizerguidance.pdf"><abbr title="U.S. Consumer Product Safety Commission">CPSC</abbr> guidance to clarify the definition of “strong sensitizer”</a> (reduction or replacement of animal use)</td>
+			<td>CPSC activity</td>
+			<td>
+			<ul><li>U.S.: CPSC guidance (2014) clarifies acceptability of in vitro test data for testing required under 15 <abbr title="United States Code">U.S.C.</abbr> 1261–1278 (Federal Hazardous Substances Act)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-442c-in-chemico-skin-sensitisation_9789264229709-en">In chemico skin sensitization test</a> (reduction or replacement of animal use)</td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists served on validation management team and commented on draft and updated test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 442C (2015, last updated 2023)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 442C (2015, <span>last updated </span><span>2023</span>)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-442d-in-vitro-skin-sensitisation_9789264229822-en">In vitro skin sensitization test</a> (ARE-Nrf2 luciferase test: reduction or replacement of animal use)</td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists commented on draft test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 442D (2015, last updated 2022)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 442D (2015, <span>last updated </span><span>2022</span>)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a class="external-link" href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=env/jm/mono(2016)29&amp;doclanguage=en" rel="noopener noreferrer" target="_blank">Guidance document on the reporting of defined approaches and individual information sources to be used within <abbr title="integrated approaches to testing and assessment">IATA</abbr> for skin sensitisation</a></td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> submitted a case study included in the guidance document</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Guidance Document 256 (2016)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted by via OECD Guidance Document 256 (2016)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="http://www.oecd-ilibrary.org/environment/test-no-442e-in-vitro-skin-sensitisation_9789264264359-en">In vitro skin sensitization test</a> (human cell line activation test: reduction or replacement of animal use)</td>
+			<td><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> and <abbr title="Interagency Coordinating Committee on the Validation of Alternative Methods">ICCVAM</abbr> scientists commented on draft test guideline</td>
+			<td>
+			<ul><li>U.S.: Accepted via <abbr title="Organisation for Economic Co-operation and Development">OECD</abbr> Test Guideline 442E (2016, <span>last updated </span><span>2023</span>)</li>
+				<li><abbr title="European Union">EU</abbr>: Accepted via OECD Test Guideline 442E (2016, <span>last updated </span><span>2023</span>)</li>
+			</ul></td>
+		</tr><tr><td>Skin Sensitization</td>
+			<td><a href="https://www.regulations.gov/document/EPA-HQ-OPP-2016-0093-0090">Policy on use of non-animal defined approaches to identify potential skin sensitizers</a></td>
+			<td><abbr title="U.S. Environmental Protection Agency">EPA</abbr> activity</td>
+			<td>
+			<ul><li>U.S.: EPA interim policy (2018) applies to testing of single chemicals required under <abbr title="Federal Insecticide, Fungicide, and Rodenticide Act">FIFRA</abbr> and <abbr title="Toxic Substances Control Act">TSCA</abbr></li>
+			</ul></td>
+		</tr></tbody></table>
+  
+
+  
+			 <br />
+
+	
+	
+			<div class="content-footer">
+			
+		</div>
+	
+  </article>
+</div>
+
+
+
+
+
+    <!-- End Index -->
+  </div>
+</main>
+
+  <footer id="footer">
+	<div class="footer-updates row align-middle">
+		<div class="medium-6 columns"><a href="#top" class="button transparent back-to-top icon">Back to Top</a></div>
+					<div class="medium-6 columns text-right">
+			<span class="show-for-medium hide-for-small">Web page last updated on</span><span class="show-for-small hide-for-medium">Last updated</span> May 15, 2024			</div>
+				</div>  
+		<div class="footer-nav">
+			<div class="row">
+				  
+  		  	    	      	<div class="link-category column small-12 medium-6 large-2">
+	  <h5 class="no-toc">Calendar & Events</h5>
+	  <ul class="vertical menu">
+	      		  	        <li ><a href="/events" data-drupal-link-system-path="node/445756">Upcoming Events</a></li>
+	    	  	        <li ><a href="/events/bsc" data-drupal-link-system-path="node/29845"><abbr title="NTP Board of Scientific Counselors">BSC</abbr> Meetings</a></li>
+	    	  	        <li ><a href="/events/panels" data-drupal-link-system-path="node/29946">Expert Panels</a></li>
+	    	  	        <li ><a href="/whatwestudy/niceatm/3rs-meetings" data-drupal-link-system-path="node/421871"><abbr title="NTP Interagency Center for the Evaluation of Alternative Toxicological Methods">NICEATM</abbr> Meetings</a></li>
+	    	  	        <li ><a href="/events/sacatm" data-drupal-link-system-path="node/29941"><abbr title="Scientific Advisory Committee on Alternative Toxicological Methods">SACATM</abbr> Meetings</a></li>
+	    	  	        <li ><a href="/events/webinars-workshops" data-drupal-link-system-path="node/29956">Webinars & Workshops</a></li>
+	    	  	        <li ><a href="/events/past" data-drupal-link-system-path="events/past">Past Events</a></li>
+	    	  	
+	  </ul>
+    </div>
+		  	    	  	    	      	<div class="link-category column small-12 medium-6 large-2">
+	  <h5 class="no-toc">News & Media</h5>
+	  <ul class="vertical menu">
+	      		  	        <li ><a href="/media/faqs" data-drupal-link-system-path="node/421836">FAQs & Fact Sheets</a></li>
+	    	  	        <li ><a href="/media/frn" data-drupal-link-system-path="media/frn">Federal Register Notices</a></li>
+	    	  	        <li ><a href="/media/inquiries" data-drupal-link-system-path="node/445281">Media Inquiries</a></li>
+	    	  	        <li ><a href="/media/news" data-drupal-link-system-path="media/news">News</a></li>
+	    	  	        <li ><a href="/media/newsletter" data-drupal-link-system-path="node/463221">NTP Newsletter Archives</a></li>
+	    	  	        <li ><a href="/media/impact" data-drupal-link-system-path="media/impact">Public Health Impact</a></li>
+	    	  	
+	  </ul>
+    </div>
+		  	    	  	    	      	<div class="link-category column small-12 medium-6 large-2">
+	  <h5 class="no-toc">Get Involved</h5>
+	  <ul class="vertical menu">
+	      		  	        <li ><a href="/support/contact" data-drupal-link-system-path="node/421851">Contact Us</a></li>
+	    	  	        <li ><a href="/getinvolved/expert_directory" data-drupal-link-system-path="node/445501">Join the Expert Directory</a></li>
+	    	  	        <li ><a href="/getinvolved/nominate" data-drupal-link-system-path="node/441791">Nominate to NTP</a></li>
+	    	  	        <li ><a href="https://www.niehs.nih.gov/careers/research/postdoc-training" target="_blank">Postdoctoral Training</a></li>
+	    	  	        <li ><a href="/getinvolved/comments" data-drupal-link-system-path="getinvolved/comments">Public Comments</a></li>
+	    	  	        <li ><a href="/getinvolved/subscribetonews" target="_blank" data-drupal-link-system-path="node/463271">Subscribe to News Updates</a></li>
+	    	  	
+	  </ul>
+    </div>
+		  	    	  	    	      	<div class="link-category column small-12 medium-6 large-2">
+	  <h5 class="no-toc">Support</h5>
+	  <ul class="vertical menu">
+	      		  	        <li ><a href="/support/accessibility" data-drupal-link-system-path="node/421846">Accessibility Information</a></li>
+	    	  	        <li ><a href="/support/acronyms" data-drupal-link-system-path="node/445076">Acronyms & Abbreviations</a></li>
+	    	  	        <li ><a href="/support/search" data-drupal-link-system-path="node/421866">Search Help</a></li>
+	    	  	        <li ><a href="/support/sitemap" data-drupal-link-system-path="sitemap">Site Map</a></li>
+	    	  	        <li ><a href="/support/visit" data-drupal-link-system-path="node/421861">Visiting NTP</a></li>
+	    	  	        <li ><a href="/support/policies" data-drupal-link-system-path="node/421856">Web Policies</a></li>
+	    	  	
+	  </ul>
+    </div>
+		  	    	  	
+
+<div id="block-copygolinkjavascript" class="block-content--copy-golink-javascript block-type-block-content block block-block-content block-block-contentc7e5e4f0-2622-40c6-8ab9-ad01046c300f">
+  
+    
+      <p><script>
+//<![CDATA[
+
+	$(document).foundation();
+	var clipboard = new ClipboardJS('.copytinyurl');
+    clipboard.on('success', function(e) {
+    	alert('Go link copied to clipboard');
+    });
+
+//]]>
+</script></p>
+
+  </div>
+
+				<div class="footer-logos column small-12 medium-6 large-4">
+				<a href="https://www.usa.gov"><img src="/themes/ntp/images/logo_usagov_dark.png" alt="USA.gov is the U.S. government's official web portal to all federal, state, and local government web resources and services" title="USA.gov: Government Made Easy" class="show-for-medium"><img src="/themes/ntp/images/logo_usagov.png" alt="USA.gov is the U.S. government's official web portal to all federal, state, and local government web resources and services" title="USA.gov: Government Made Easy" class="show-for-small-only"></a>
+				<a href="https://www.hhs.gov" target="_blank" rel="noopener noreferrer"><img src="/themes/ntp/images/logo_hhs_dark.png" alt="U.S. Department of Health and Human Services" title="U.S. Department of Health and Human Services (HHS)" class="show-for-medium"><img src="/themes/ntp/images/logo_hhs.png" alt="U.S. Department of Health and Human Services" title="U.S. Department of Health and Human Services (HHS)" class="show-for-small-only"></a>
+				<ul>
+					<li><a href="https://www.niehs.nih.gov/about/foia">Freedom of Information Act</a></li>
+					<li><a href="https://oig.hhs.gov">Inspector General</a></li>
+					<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure Policy</a></li>
+					<li><a href="https://www.nih.gov/web-policies-notices">NIH Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-links">
+		<div class="row">
+			<div id="footer-ntp" class="column small-12">NTP is headquartered administratively at the <a href="https://www.niehs.nih.gov">National Institute of Environmental Health Sciences</a>, part of the <a href="https://www.nih.gov">National Institutes of Health</a></div>
+						
+	<ul id="request-update" class="small-12 columns" style="display: none;">
+	<li>Staff: </li>
+																						<li><a href="/updatethispage?webpage=https%3A%2F%2Fntp.niehs.nih.gov%2Fwhatwestudy%2Fniceatm%2Faccept-methods" target="_blank">Request an Update of this Page</a></li>
+																	<li><a href="https://nih.sharepoint.com/sites/NIEHS-DTT-Tools/Calendar/Pages/home.aspx" target="_blank">Staff Intranet</a></li>
+							</ul>
+
+		</div>
+	</div>
+</footer>
+
+
+  </div>
+
+
+
+<script src="/sites/default/files/js/js_Mmb33gG-c0UNw4O73RFpov-_ap4tCQFTR17Dviq-PN8.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ntp&amp;include=eJxljkEOwjAMBD-UKk-K3MREpo5dYrcivB4hpKqF2-wcdjcvWMi1J5KC4jNrXuKJQ9aO8f7YsI9QVStjAgEeTtnirwjia3J4qmgbqeNORioWDwo2zLHFGQxDZjAbF25oBhXtOyvaGzC98NMbK-sMPJkPJqkXlTutbmGzG5aqe_o7ygplOuKUi7wBa5Viig"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=NTP" id="_fed_an_ua_tag"></script>
+
+
+<script>
+  $(document).foundation();
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"be99a44193","applicationID":"467377691","transactionName":"ZFdaZkRXCkZQVkUPW10deVFCXwtbHnFDE0RSXmRcWVIBaXJaXxJGXF5UV0RqKlpVUGcPUURxV1xCRAtZXVBDSwpFW11F","queueTime":3,"applicationTime":413,"atts":"SBBZEAxNGUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
